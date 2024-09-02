@@ -62,7 +62,7 @@ export function LandingPage() {
       <header className="flex justify-between items-center p-6 border-b sticky top-0 bg-white z-10">
         <div className="text-2xl font-bold">▲</div>
         <nav className="flex items-center">
-          <ul className="flex space-x-8 mr-12">
+          <ul className="hidden md:flex space-x-8 mr-12">
             <li><a href="#features" className="text-gray-600 hover:text-gray-900">特徴</a></li>
             <li><a href="#benefits" className="text-gray-600 hover:text-gray-900">メリット</a></li>
             <li><a href="#how-it-works" className="text-gray-600 hover:text-gray-900">仕組み</a></li>
