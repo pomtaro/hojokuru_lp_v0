@@ -122,28 +122,36 @@ export function LandingPage() {
           <h2 className="text-4xl font-bold text-center mb-12">ホジョクルのメリット</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="flex items-start">
-              <CheckCircle className="mr-6 text-green-500 w-8 h-8" />
+              <div className="flex-shrink-0 mr-4">
+                <CheckCircle className="text-green-500 w-12 h-12" />
+              </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-4">資金調達の機会拡大</h3>
                 <p className="text-lg">様々な補助金情報にアクセスすることで、資金調達の可能性が広がります。</p>
               </div>
             </div>
             <div className="flex items-start">
-              <CheckCircle className="mr-6 text-green-500 w-8 h-8" />
+              <div className="flex-shrink-0 mr-4">
+                <CheckCircle className="text-green-500 w-12 h-12" />
+              </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-4">時間と労力の節約</h3>
                 <p className="text-lg">補助金情報の収集や整理にかかる時間を大幅に削減できます。</p>
               </div>
             </div>
             <div className="flex items-start">
-              <CheckCircle className="mr-6 text-green-500 w-8 h-8" />
+              <div className="flex-shrink-0 mr-4">
+                <CheckCircle className="text-green-500 w-12 h-12" />
+              </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-4">的確な意思決定</h3>
                 <p className="text-lg">最新の補助金情報を基に、より戦略的な経営判断が可能になります。</p>
               </div>
             </div>
             <div className="flex items-start">
-              <CheckCircle className="mr-6 text-green-500 w-8 h-8" />
+              <div className="flex-shrink-0 mr-4">
+                <CheckCircle className="text-green-500 w-12 h-12" />
+              </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-4">専門家のサポート</h3>
                 <p className="text-lg">経験豊富な専門家による適切なアドバイスを受けられます。</p>
