@@ -156,31 +156,31 @@ export function LandingPage() {
           <h2 className="text-4xl font-bold text-center mb-12">ホジョクルの仕組み</h2>
           <div className="max-w-3xl mx-auto space-y-12">
             <div className="flex items-center">
-              <div className="bg-black text-white rounded-full w-16 h-16 flex items-center justify-center mr-8 text-2xl font-bold">1</div>
+              <div className="bg-black text-white rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center mr-8 text-xl font-bold md:w-16 md:h-16 md:text-2xl sm:w-12 sm:h-12 sm:text-xl xs:w-12 xs:h-12 xs:text-xl">1</div>
               <div>
-                <h3 className="text-2xl font-semibold mb-2">アカウント作成</h3>
-                <p className="text-lg">簡単な情報入力でアカウントを作成します。</p>
+                <h3 className="text-2xl font-semibold mb-2 md:text-2xl sm:text-xl xs:text-xl">アカウント作成</h3>
+                <p className="text-lg md:text-lg sm:text-sm xs:text-sm">簡単な情報入力でアカウントを作成します。</p>
               </div>
             </div>
             <div className="flex items-center">
-              <div className="bg-black text-white rounded-full w-16 h-16 flex items-center justify-center mr-8 text-2xl font-bold">2</div>
+              <div className="bg-black text-white rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center mr-8 text-xl font-bold md:w-16 md:h-16 md:text-2xl sm:w-12 sm:h-12 sm:text-xl xs:w-12 xs:h-12 xs:text-xl">2</div>
               <div>
-                <h3 className="text-2xl font-semibold mb-2">補助金検索</h3>
-                <p className="text-lg">業種や目的に応じて、最適な補助金を検索します。</p>
+                <h3 className="text-2xl font-semibold mb-2 md:text-2xl sm:text-xl xs:text-xl">補助金検索</h3>
+                <p className="text-lg md:text-lg sm:text-sm xs:text-sm">業種や目的に応じて、最適な補助金を検索します。</p>
               </div>
             </div>
             <div className="flex items-center">
-              <div className="bg-black text-white rounded-full w-16 h-16 flex items-center justify-center mr-8 text-2xl font-bold">3</div>
+              <div className="bg-black text-white rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center mr-8 text-xl font-bold md:w-16 md:h-16 md:text-2xl sm:w-12 sm:h-12 sm:text-xl xs:w-12 xs:h-12 xs:text-xl">3</div>
               <div>
-                <h3 className="text-2xl font-semibold mb-2">専門家サポート</h3>
-                <p className="text-lg">経験豊富な専門家が申請をサポートします。</p>
+                <h3 className="text-2xl font-semibold mb-2 md:text-2xl sm:text-xl xs:text-xl">専門家サポート</h3>
+                <p className="text-lg md:text-lg sm:text-sm xs:text-sm">経験豊富な専門家が申請をサポートします。</p>
               </div>
             </div>
             <div className="flex items-center">
-              <div className="bg-black text-white rounded-full w-16 h-16 flex items-center justify-center mr-8 text-2xl font-bold">4</div>
+              <div className="bg-black text-white rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center mr-8 text-xl font-bold md:w-16 md:h-16 md:text-2xl sm:w-12 sm:h-12 sm:text-xl xs:w-12 xs:h-12 xs:text-xl">4</div>
               <div>
-                <h3 className="text-2xl font-semibold mb-2">申請・管理</h3>
-                <p className="text-lg">補助金の申請を行い、進捗を管理します。</p>
+                <h3 className="text-2xl font-semibold mb-2 md:text-2xl sm:text-xl xs:text-xl">申請・管理</h3>
+                <p className="text-lg md:text-lg sm:text-sm xs:text-sm">補助金の申請を行い、進捗を管理します。</p>
               </div>
             </div>
           </div>
