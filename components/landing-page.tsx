@@ -58,21 +58,7 @@ export function LandingPage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white">
-      <header className="flex justify-between items-center p-6 border-b sticky top-0 bg-white z-10">
-        <div className="text-2xl font-bold">▲</div>
-        <nav className="flex items-center">
-          <ul className="hidden md:flex space-x-8 mr-12">
-            <li><a href="#features" className="text-gray-600 hover:text-gray-900">特徴</a></li>
-            <li><a href="#benefits" className="text-gray-600 hover:text-gray-900">メリット</a></li>
-            <li><a href="#how-it-works" className="text-gray-600 hover:text-gray-900">仕組み</a></li>
-            <li><a href="#pricing" className="text-gray-600 hover:text-gray-900">料金</a></li>
-            <li><a href="#faq" className="text-gray-600 hover:text-gray-900">FAQ</a></li>
-          </ul>
-          <Button className="bg-black text-white hover:bg-gray-800">資料ダウンロード</Button>
-        </nav>
-      </header>
-
+    <>
       <main className="container mx-auto px-4 py-24 max-w-[1200px] space-y-64">
         <section className="text-center">
           <h1 className="text-5xl font-bold mb-8">ホジョクル</h1>
@@ -122,7 +108,7 @@ export function LandingPage() {
           <h2 className="text-4xl font-bold text-center mb-12">ホジョクルのメリット</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="flex items-start">
-              <div className="flex-shrink-0 mr-4">
+              <div className="flex-shrink-0 mr-8">
                 <CheckCircle className="text-green-500 w-12 h-12" />
               </div>
               <div>
@@ -131,7 +117,7 @@ export function LandingPage() {
               </div>
             </div>
             <div className="flex items-start">
-              <div className="flex-shrink-0 mr-4">
+              <div className="flex-shrink-0 mr-8">
                 <CheckCircle className="text-green-500 w-12 h-12" />
               </div>
               <div>
@@ -140,16 +126,16 @@ export function LandingPage() {
               </div>
             </div>
             <div className="flex items-start">
-              <div className="flex-shrink-0 mr-4">
+              <div className="flex-shrink-0 mr-8">
                 <CheckCircle className="text-green-500 w-12 h-12" />
               </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-4">的確な意思決定</h3>
-                <p className="text-lg">最新の補助金情報を基に、より戦略的な経営判断が可能になります。</p>
+                <p className="text-lg">最新の補助金情報を基に、より戦略的な営判断が可能になります。</p>
               </div>
             </div>
             <div className="flex items-start">
-              <div className="flex-shrink-0 mr-4">
+              <div className="flex-shrink-0 mr-8">
                 <CheckCircle className="text-green-500 w-12 h-12" />
               </div>
               <div>
@@ -262,8 +248,7 @@ export function LandingPage() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger className="text-xl">どのような業種に対応してい
-ますか？</AccordionTrigger>
+              <AccordionTrigger className="text-xl">どのような業種に対応していますか？</AccordionTrigger>
               <AccordionContent className="text-lg">
                 製造業、小売業、サービス業など、幅広い業種に対応しています。具体的な業種については、お問い合わせください。
               </AccordionContent>
@@ -317,6 +302,6 @@ export function LandingPage() {
           </div>
         </div>
       </footer>
-    </div>
+    </>
   )
 }
