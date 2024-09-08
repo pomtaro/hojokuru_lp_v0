@@ -5,10 +5,26 @@ import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 
 const inter = Inter({ subsets: ["latin"] });
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: "ホジョクル - 中小企業向け補助金サポート",
-  description: "中小企業の皆様に、最新の補助金情報をお届けします。",
+  description: "待ってるだけで補助金がやってくる",
+  openGraph: {
+    title: "ホジョクル - 中小企業向け補助金サポート",
+    description: "待ってるだけで補助金がやってくる",
+    images: [
+      {
+        url: "/thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "ホジョクル OGイメージ",
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +37,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="min-h-screen bg-white">
           <header className="flex justify-between items-center p-6 border-b sticky top-0 bg-white z-10">
-            <Link href="/" className="text-2xl font-bold">▲</Link>
+            <Link href="/" className="text-2xl font-bold">ホジョクル</Link>
             <nav className="flex items-center">
               <ul className="hidden md:flex space-x-8 mr-12">
                 <li><Link href="/#features" className="text-gray-600 hover:text-gray-900">特徴</Link></li>
